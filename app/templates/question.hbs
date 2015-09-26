@@ -4,4 +4,12 @@
 <br>
 {{model.note}}
 
-{{single-question question=model}}
+<ul>
+  {{#each model.answers as |answer|}}
+  <li>{{answer.answerer}}</li>
+  <li>{{answer.response}}</li>
+  {{/each}}
+</ul>
+
+
+{{answer-tile answer=model addAnswer="addAnswer"}}
