@@ -1,0 +1,11 @@
+{ "questions": [{
+  "questioner": "Jaimey Portland",
+  "query": "Why so rainy?",
+  "note": "I'm cold."
+  }],
+
+  "answers": [{
+  "answerer": "Bob Think",
+  "response": "It's a mystery"
+  }]
+}
