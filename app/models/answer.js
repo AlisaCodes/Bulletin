@@ -4,5 +4,4 @@ export default DS.Model.extend({
   question: DS.belongsTo('question', {async: true}),
   answerer: DS.attr(),
   response: DS.attr()
-
 });

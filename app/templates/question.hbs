@@ -5,11 +5,11 @@
 {{model.note}}
 
 <ul>
-  {{#each model.answers as |answer|}}
+  {{#each model as |answer|}}
   <li>{{answer.answerer}}</li>
   <li>{{answer.response}}</li>
   {{/each}}
 </ul>
 
 
-{{answer-tile answer=model addAnswer="addAnswer"}}
+{{new-answer answer=model addNewAnswer="addNewAnswer"}}
